@@ -1,0 +1,755 @@
+
+/* kebab */
+
+.tit_mob{
+    display: none;
+}
+.kebab_ico{
+    display: none;   
+}
+
+
+
+/* scrolling floating button */
+
+.fixedTop {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 6;
+    border-radius: 50%;
+    background: #0A3792 url("../img/icon_top.svg") no-repeat center/1.5rem;
+    opacity: 0;
+    transition: all .3s;
+    transform: translateY(3rem);
+    cursor: pointer;
+}
+
+/* navigation */
+
+header {
+    padding-top: 3.5rem;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    transition: all .2s ease-in-out;
+}
+
+header::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 7rem;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 .8rem 0 rgba(0, 0, 0, 0.1);
+}
+
+header .inner {
+    margin: 0 auto;
+    width: 144rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1.tit a {
+    margin-bottom: 1.2rem;
+    width: 8rem;
+    height: 2.6rem;
+    display: block;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+nav ul a {
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-left: 5rem;
+}
+
+#container {
+    position: relative;
+}
+
+/* hero slider */
+
+#hero_wrap {
+    height: 100vh;
+}
+
+#hero_wrap .tit_wrap {
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    left: 24rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero_wrap .tit_wrap p {
+    margin-top: 2rem;
+}
+
+#hero_wrap .tit_wrap a {
+    margin-top: 3.2rem;
+    width: 18rem;
+    height: 4rem;
+    display: block;
+    background: #fff;
+    background: no-repeat right center url("../img/btn_arrow.png");
+}
+
+#hero_wrap .tit_wrap a span {
+    padding-bottom: 1rem;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+h1.tit a img {
+    position: absolute;
+    top: 0;
+}
+
+h1.tit a img.dsk_logo_wh {
+    opacity: 1;
+}
+
+h1.tit a img.dsk_logo_bl {
+    opacity: 0;
+}
+
+.hero .swiper-slide {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+}
+
+.hero .swiper-slide::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, .5) 100%);
+    opacity: 1;
+}
+
+.hero .swiper-slide.s01 {
+    background-image: url("../img/main_1.jpg");
+}
+
+.hero .swiper-slide.s02 {
+    background-image: url("../img/main_2.jpg");
+}
+
+.hero .swiper-slide.s03 {
+    background-image: url("../img/main_3.jpg");
+}
+
+.hero .swiper-slide.s04 {
+    background-image: url("../img/main_4.jpg");
+}
+
+/* slider button */
+
+.hero .swiper-button-next::after,
+.hero .swiper-button-prev::after {
+    display: none;
+}
+
+.hero .swiper-button-next,
+.hero .swiper-button-prev {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero .swiper-button-next {
+    right: 2rem;
+    background-image: url("../img/right.png");
+}
+
+.hero .swiper-button-prev {
+    left: 2rem;
+    background-image: url("../img/left.png");
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+/* scrolling */
+
+body.scrolling .fixedTop {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+body.scrolling header {
+    padding: 1.5rem 0;
+    top: 0;
+}
+
+body.scrolling header::before {
+    opacity: 1;
+}
+
+body.scrolling h1.tit a img.dsk_logo_bl {
+    opacity: 1;
+}
+
+body.scrolling h1.tit a img.dsk_logo_wh {
+    opacity: 0;
+}
+
+body.scrolling nav ul a {
+    color: #000;
+}
+
+/* introduce section */
+
+#introduce {
+    padding-top: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#introduce .com_sol_int {
+    margin: auto;
+    width: 130rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#introduce .com_sol_int .solution {
+    margin-top: 8rem;
+}
+
+#introduce .com_sol_int .int_article_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#introduce .com_sol_int .int_article_wrap .int_img {
+    width: 64.6rem;
+    height: 37rem;
+    overflow: hidden;
+}
+
+#introduce .com_sol_int .int_article_wrap .com_int_txt {
+    width: 58rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#introduce .com_sol_int .int_article_wrap .com_int_txt h1 {
+    padding-top: 1.2rem;
+}
+
+#introduce .com_sol_int .int_article_wrap .com_int_txt p {
+    padding-top: 1.6rem;
+    line-height: 2.4rem;
+}
+
+#introduce .com_sol_int .int_article_wrap .com_int_txt a {
+    margin-top: 7rem;
+    width: 15.8rem;
+    height: 3.2rem;
+    display: block;
+    background: url("../img/btn_arrow_bl.png") left center no-repeat;
+}
+
+#introduce .com_sol_int .int_article_wrap .com_int_txt a span {
+    font-family: 'KoPubWorldDotum';
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* business_contractor */
+
+#business_contractor {
+    margin: auto;
+    padding: 20rem 0;
+    max-width: 130rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#business_contractor .com_int_txt p {
+    margin-top: 2rem;
+}
+
+#business_contractor .card_wrap {
+    margin-top: 5rem;
+    width: 130rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#business_contractor .card_wrap .biz_card_img {
+    width: 30rem;
+    height: 40.7rem;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#business_contractor .card_wrap .biz_card {
+    position: relative;
+    cursor: pointer;
+}
+
+#business_contractor .card_wrap .biz_card::after {
+    content: "";
+    width: 30rem;
+    height: 40.7rem;
+    background-color: #0A3792;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all .3s;
+    z-index: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#business_contractor .card_wrap .biz_card:hover::after {
+    opacity: 1;
+    left: 1rem;
+    top: 1rem;
+}
+
+#business_contractor .card_wrap .biz_card .biz_card_txt h3 {
+    transition: all .3s;
+}
+
+#business_contractor .card_wrap .biz_card:hover .biz_card_txt h3 {
+    color: #0A3792;
+}
+
+#business_contractor .card_wrap .biz_card_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#business_contractor .card_wrap .biz_card_txt {
+    margin-top: 2.6rem;
+}
+
+#business_contractor .card_wrap .biz_card_txt p {
+    margin-top: .5rem;
+}
+
+/* middle_img */
+
+#middle_img {
+    width: 100vw;
+    height: 38.5rem;
+    display: flex;
+}
+
+#middle_img .middle_txt {
+    width: 112rem;
+    background-color: #0A3792;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#middle_img .middle_txt .inner_box .tit_wrap p {
+    margin-top: 1.7rem;
+    line-height: 3rem;
+}
+
+#middle_img .middle_txt .btn_wrap {
+    margin-top: 1.5rem;
+}
+
+#middle_img .middle_txt .btn_wrap button {
+    width: 16.5rem;
+    height: 4.4rem;
+    color: #fff;
+    background-color: transparent;
+    border: .17rem solid #fff;
+    font-family: 'KoPubWorldDotum';
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#middle_img .middle_img {
+    width: calc(100vw - 112rem);
+    height: 38.5rem;
+    overflow: hidden;
+}
+
+#middle_img .middle_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* news */
+
+.carousel_wrap {
+    margin: 20rem auto;
+    width: 146rem;
+    height: 52rem;
+    position: relative;
+    overflow: visible;
+}
+
+.carousel_wrap .swiper-slide a{
+    width: 50rem;
+    height: 46rem;
+    transition: all .3s ease-in-out;
+    transform: scale(.7);
+}
+
+.carousel_wrap .swiper-slide a {
+    border: 1px solid #0A3792;
+    padding: 3rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_wrap .swiper-slide .img {
+    width: 40rem;
+    height: 26rem;
+    border-radius: 1rem;
+    border: .1rem solid #E8E8E8;
+    overflow: hidden;
+}
+
+.carousel_wrap .swiper-slide .txt_wrap {
+    margin-top: 3rem;
+    width: 40rem;
+    /* height: 10rem; */
+}
+
+.carousel_wrap .swiper-slide .txt_wrap h3 {
+    line-height: 2.1rem;
+}
+
+.carousel_wrap .swiper-slide .txt_wrap p {
+    margin-top: 1rem;
+    line-height: 2.3rem;
+}
+
+.carousel_wrap .swiper-slide .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_wrap .swiper-slide.swiper-slide-active a{
+    transform: scale(1);
+    box-shadow: 0 0 6px rgba(10, 55, 146, 0.3);
+}
+
+.swiper-pagination.carousel_btn {
+    bottom: 0;
+}
+
+.swiper-pagination-bullet {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background-color: #9c9c9c;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #0A3792;
+}
+
+
+/* notice_contractor */
+
+#notice_contractor {
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#notice_contractor .notice_container_box {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#notice_contractor .notice_container_box li {
+    margin-left: 8rem;
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#notice_contractor .notice_container_box li:first-child {
+    margin-left: 0;
+}
+
+#notice_contractor .notice_container_box li::before {
+    width: 100%;
+    height: 5rem;
+    content: "";
+    background: rgba(10, 55, 146, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all .3s;
+}
+
+#notice_contractor .notice_container_box li:nth-child(even)::before {
+    width: 100%;
+    height: 5rem;
+    content: "";
+    background: rgba(60, 65, 68, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all .3s;
+}
+
+#notice_contractor .notice_container_box .lst1 {
+    background: url("../img/no_list_1.jpg") no-repeat center/cover;
+}
+
+#notice_contractor .notice_container_box .lst2 {
+    background: url("../img/no_list_2.jpg") no-repeat center/cover;
+}
+
+#notice_contractor .notice_container_box .lst3 {
+    background: url("../img/no_list_3.jpg") no-repeat center/cover;
+}
+
+#notice_contractor .notice_container_box .lst4 {
+    background: url("../img/no_list_4.jpg") no-repeat center/cover;
+}
+
+#notice_contractor .notice_container_box a {
+    padding: 3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+#notice_contractor .notice_container_box a .notice_line {
+    width: 13.5rem;
+    height: .2rem;
+    background-color: #fff;
+    text-indent: -999rem;
+}
+
+#notice_contractor .notice_container_box a .notice_line,
+#notice_contractor .notice_container_box a p {
+    margin-top: 1rem;
+    opacity: 0;
+    position: relative;
+    transition: all .3s;
+    transform: translateY(13rem);
+    z-index: 2;
+}
+
+#notice_contractor .notice_container_box a p {
+    line-height: 2.3rem;
+}
+
+#notice_contractor .notice_container_box a h4 {
+    position: relative;
+    top: 3rem;
+    z-index: 2;
+    transition: all .3s;
+    transform: translateY(13rem);
+}
+
+#notice_contractor .notice_container_box li:hover a .notice_line,
+#notice_contractor .notice_container_box li:hover a p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#notice_contractor .notice_container_box li:hover a h4 {
+    transform: translateY(0);
+    top: 0;
+}
+
+#notice_contractor .notice_container_box li:hover:before {
+    height: 100%;
+}
+
+
+
+/* 김창민 */
+
+/* section_clients */
+
+
+.nck_contractor .inner {
+    max-width: 100vw;
+    height: 15rem;
+    margin-top: 15rem;
+}
+
+.nck_contractor .swiper-wrapper {
+    transition-timing-function: linear;
+    padding: 1rem 0;
+}
+
+.dep3_slide .swiper-slide {
+    width: 16rem;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0.1rem 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.dep3_slide .swiper-slide img {
+    width: 12rem;
+    height: 6rem;
+    transform: scale(1.1);
+}
+
+.nck_contractor .swiper-button-next,
+.nck_contractor .swiper-button-prev {
+    width: 28rem;
+    height: 28rem;
+    display: none;
+}
+
+.nck_contractor .swiper-button-next {
+    right: 0;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%);
+}
+
+.nck_contractor .swiper-button-prev {
+    left: 0;
+    background: -webkit-linear-gradient(left, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* footer 시작 */
+
+
+
+footer {
+    position: relative;
+
+    background-color: #3C4144;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer_contractor {
+    display: flex;
+    margin: auto;
+    width: 144rem;
+    height: 27.7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_list_l {
+    width: 40rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot_list_l img {
+    width: 10rem;
+}
+
+.foot_nav {
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_nav li {
+    font-size: 1.6rem;
+}
+
+
+.foot_list_p {
+    font-size: 1.2rem;
+    color: #777777;
+}
+
+.foot_list_r {
+    width: 53.4rem;
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align:right;
+}
+
+.foot_list_r li {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.foot_list_r li:nth-child(5){
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: #777777;
+}
+
+
+
+
+
+
+
+
+/* 김창민 끝*/

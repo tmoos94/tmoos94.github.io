@@ -1,0 +1,133 @@
+section , footer {
+  position: relative;
+}
+.inner {
+  max-width: 144rem;
+  margin: auto;
+  position: relative;
+}
+section {
+  z-index: 0;
+}
+/* nav */
+nav ul li{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* main */
+#hero_wrap .tit_wrap h1{
+  font-family: 'PuradakGentleGothicR';
+  font-size: 8rem;
+}
+
+#hero_wrap .tit_wrap p{
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+#hero_wrap .tit_wrap a span {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+
+/* 2page introduce*/
+
+#introduce .com_int_txt h2{
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+#introduce .com_int_txt h1{
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+#introduce .com_int_txt p{
+  font-size: 1.9rem;
+  font-weight: 300;
+
+}
+#introduce .com_int_txt a span{
+  font-size: 2.0rem;
+  font-weight: 500;
+
+}
+
+
+/* 3page business */
+#business_contractor .com_int_txt h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+#business_contractor .com_int_txt p{
+  font-size: 1.9rem;
+  font-weight: 300;
+}
+#business_contractor .card_wrap .biz_card_txt h3{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+#business_contractor .card_wrap .biz_card_txt p{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* 4page middle_img */
+
+#middle_img {
+  color: #fff;
+}
+
+#middle_img .inner_box .tit_wrap h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+#middle_img .inner_box .tit_wrap p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+/* 5page news */
+.carousel_wrap .swiper-slide .txt_wrap h3{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.carousel_wrap .swiper-slide .txt_wrap p{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+/* 6page notice */
+#notice_contractor .notice_container_box h4{
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+#notice_contractor .notice_container_box p{
+  font-size: 1.4rem;
+  font-weight: 500;
+
+}
+
+/* 8page foooter */
+.foot_nav h1{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.foot_nav p{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.foot_list_r{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* button */
+.btn_wrap{
+  font-size: 2.2rem;
+  font-weight: 700;
+
+} 
