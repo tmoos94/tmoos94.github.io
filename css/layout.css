@@ -285,12 +285,13 @@ section:nth-child(even) {
 #s1 .bg_1_rabbit {
     position: absolute;
     top: 15rem;
-    left: 35rem;
+    left: 5rem;
     width: 56rem;
     height: 45rem;
     z-index: 5;
-    background: url(../img/2.svg) no-repeat;
-    background-size: cover;
+    background: url(../img/2.svg) no-repeat cover;
+    
+    
 }
 
 /* 구름1 */
