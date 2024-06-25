@@ -434,8 +434,12 @@ section:nth-child(even) {
 #s3 .rel {
     background: url(../img/s05_bg.PNG) 100%;
     background-size: contain;
-    /* transform: scale(-1); */
 
+    transform: scale(-1);
+
+}
+#s3 .rel_bg {
+    transform: scale(-1);
 }
 
 #s3 .tit_wrap {
@@ -662,14 +666,14 @@ section:nth-child(even) {
 
 
 #s5 .rel {
-    
     background: url(../img/s05_bg.PNG) 100%;
     background-size: contain;
+    /* transform: scale(-1); */
 
 }
 #s5 .bg5{
     
-    transform: scale(-1);
+    /* transform: scale(-1); */
 }
 
 #s5 .tit_wrap {
