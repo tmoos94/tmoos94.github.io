@@ -434,6 +434,7 @@ section:nth-child(even) {
 #s3 .rel {
     background: url(../img/s05_bg.PNG) 100%;
     background-size: contain;
+    /* transform: scale(-1); */
 
 }
 
@@ -661,9 +662,9 @@ section:nth-child(even) {
 
 
 #s5 .rel {
+    
     background: url(../img/s05_bg.PNG) 100%;
     background-size: contain;
-    transform: scale(-1);
 
 }
 #s5 .bg5{
