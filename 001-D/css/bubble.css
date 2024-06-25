@@ -1,0 +1,277 @@
+
+.bottom-particles {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .bottom-particles .bubble {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(255, 208, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+  }
+  .bottom-particles .bubble:nth-child(1) {
+    left: 14%;
+    animation: blow 11016ms infinite;
+    width: 1rem;
+    height: 1rem;
+    will-change: transform, opacity;
+    animation-delay: 1007ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(2) {
+    left: 32%;
+    animation: blow 6000ms infinite;
+    width: 4rem;
+    height: 4rem;
+    will-change: transform, opacity;
+    animation-delay: 3979ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(3) {
+    left: 42%;
+    animation: blow 6000ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 5981ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(4) {
+    left: 92%;
+    animation: blow 10081ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 9703ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(5) {
+    left: 67%;
+    animation: blow 6000ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 11623ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(6) {
+    left: 85%;
+    animation: blow 9226ms infinite;
+    width: 1rem;
+    height: 1rem;
+    will-change: transform, opacity;
+    animation-delay: 5949ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(7) {
+    left: 73%;
+    animation: blow 6000ms infinite;
+    width: 2rem;
+    height: 2rem;
+    will-change: transform, opacity;
+    animation-delay: 4529ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(8) {
+    left: 77%;
+    animation: blow 6000ms infinite;
+    width: 2rem;
+    height: 2rem;
+    will-change: transform, opacity;
+    animation-delay: 1190ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(9) {
+    left: 65%;
+    animation: blow 6304ms infinite;
+    width: 3rem;
+    height: 3rem;
+    will-change: transform, opacity;
+    animation-delay: 9519ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(10) {
+    left: 81%;
+    animation: blow 8283ms infinite;
+    width: 3rem;
+    height: 3rem;
+    will-change: transform, opacity;
+    animation-delay: 5131ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(11) {
+    left: 37%;
+    animation: blow 8257ms infinite;
+    width: 1rem;
+    height: 1rem;
+    will-change: transform, opacity;
+    animation-delay: 3036ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(12) {
+    left: 91%;
+    animation: blow 13844ms infinite;
+    width: 2rem;
+    height: 2rem;
+    will-change: transform, opacity;
+    animation-delay: 6549ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(13) {
+    left: 41%;
+    animation: blow 17250ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 2605ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(14) {
+    left: 91%;
+    animation: blow 6000ms infinite;
+    width: 4rem;
+    height: 4rem;
+    will-change: transform, opacity;
+    animation-delay: 4769ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(15) {
+    left: 40%;
+    animation: blow 6000ms infinite;
+    width: 1rem;
+    height: 1rem;
+    will-change: transform, opacity;
+    animation-delay: 6255ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(16) {
+    left: 89%;
+    animation: blow 9048ms infinite;
+    width: 4rem;
+    height: 4rem;
+    will-change: transform, opacity;
+    animation-delay: 9943ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(17) {
+    left: 100%;
+    animation: blow 8396ms infinite;
+    width: 4rem;
+    height: 4rem;
+    will-change: transform, opacity;
+    animation-delay: 1259ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(18) {
+    left: 41%;
+    animation: blow 7457ms infinite;
+    width: 3rem;
+    height: 3rem;
+    will-change: transform, opacity;
+    animation-delay: 4463ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(19) {
+    left: 38%;
+    animation: blow 6000ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 2617ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(20) {
+    left: 25%;
+    animation: blow 6000ms infinite;
+    width: 3rem;
+    height: 3rem;
+    will-change: transform, opacity;
+    animation-delay: 8361ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(21) {
+    left: 79%;
+    animation: blow 8333ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 9440ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(22) {
+    left: 8%;
+    animation: blow 16310ms infinite;
+    width: 1rem;
+    height: 1rem;
+    will-change: transform, opacity;
+    animation-delay: 8347ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(23) {
+    left: 84%;
+    animation: blow 6755ms infinite;
+    width: 3rem;
+    height: 3rem;
+    will-change: transform, opacity;
+    animation-delay: 5961ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(24) {
+    left: 43%;
+    animation: blow 6000ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 869ms;
+    transform: translateZ(0);
+  }
+  .bottom-particles .bubble:nth-child(25) {
+    left: 21%;
+    animation: blow 6000ms infinite;
+    width: 5rem;
+    height: 5rem;
+    will-change: transform, opacity;
+    animation-delay: 1139ms;
+    transform: translateZ(0);
+  }
+  
+  @keyframes blow {
+    0% {
+      opacity: 0;
+      transform: translate(0, 0);
+    }
+    20% {
+      opacity: 0.3;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, -100vh) scale(0.8);
+    }
+  }
+  .main {
+    transform: translateZ(0);
+    will-change: contents;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  @media screen and (min-width: 600px) {
+    .main {
+      height: 110vh;
+    }
+  }
+  
+  #portfolio {
+    overflow: hidden;
+  }
+  
+  #anim {
+  min-height: 100%;
+  }

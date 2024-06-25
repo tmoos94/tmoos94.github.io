@@ -1,0 +1,115 @@
+#s0 .title_1{
+    
+    font-family: 'NPSfontExtraBold';
+    font-size: 12rem;
+    
+}
+#s0 .title_2{
+    font-family: 'NPSfontBold';
+    font-size: 8rem;
+}
+#s1 .title{
+    font-size: 3rem;
+    font-family: 'NPSfontBold';
+}
+#s1 .txt{
+    line-height: 2.4rem;
+    font-size: 1.7rem;
+}
+#s1 .skillicon{
+    font-family: 'NPSfontBold';
+    font-size: 2.4rem;
+}
+#s1 .rtxt_1{
+    font-family: 'NPSfontBold';
+    font-size: 3.9rem;
+    
+}
+#s1 .rtxt_2{
+    font-family: 'NPSfontBold';
+    font-size: 8rem;
+}
+#s2 .title{
+    font-family: 'NPSfontBold';
+    font-size: 9rem;
+
+}
+#s2 .txt{
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+}
+
+#s3 .title{
+    font-family: 'NPSfontBold';
+    font-size: 9rem;
+}
+#s3 .txt{
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+}
+#s3 .dep1_list{
+    font-size: 1.4rem;
+
+}
+#s3 .lst_tit_1{
+    font-size: 4rem;
+}
+#s3 .btn{
+    font-size: 2rem;
+    font-family: 'NPSfontBold';
+}
+
+#s4 .title{
+    font-family: 'NPSfontBold';
+    font-size: 9rem;
+}
+#s4 .txt{
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+}
+#s4 .dep1_list{
+    line-height: 2rem;
+    font-size: 1.4rem;
+
+}
+#s4 .lst_tit_1{
+    font-size: 4rem;
+}
+#s4 .btn{
+    font-size: 2rem;
+    font-family: 'NPSfontBold';
+}
+#s5 .title{
+    font-family: 'NPSfontBold';
+    font-size: 9rem;
+}
+#s5 .txt{
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+}
+#s5 .dep1_list{
+    line-height: 2rem;
+    font-size: 1.4rem;
+
+}
+#s5 .lst_tit_1{
+    font-size: 4rem;
+}
+#s5 .btn{
+    font-size: 2rem;
+    font-family: 'NPSfontBold';
+}
+#s6 .title{
+    font-size: 5.8rem;
+    font-family: 'NPSfontBold';
+}
+#s6 .add{
+    font-size: 3.2rem;
+}
+#s6 .txt{
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+}
+.s3pro{
+    font-family: 'NPSfontExtraBold';
+}

@@ -1,0 +1,70 @@
+
+.pc_wrap01 {
+position:absolute;
+/* z-index: 0; */
+    height: 45.5rem;
+    width: 85.5rem;
+transform: translate(-10rem, 0rem);
+background-color: #444444;
+border-radius: 3rem;
+}
+.pc_wrap01 .box01 {
+  position: absolute;
+  height: 42rem;
+  width: 82rem;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: #000;
+  overflow:hidden;
+  border-radius: 2rem;
+}
+.box01 img{
+  position: absolute;
+  width:100%;
+}
+
+.pc_wrap01 .box01:hover img{
+  animation: ani01 30s infinite;
+}
+
+.pc_wrap02 {
+position:absolute;
+/* z-index: 0; */
+    height: 41.5rem;
+    width: 22.5rem;
+transform: translate(50rem, 25rem);
+background-color: #000;
+border-radius: 3rem;
+}
+.pc_wrap02 .box02 {
+  position: absolute;
+  height: 38rem;
+  width: 20rem;
+  top: 1rem;
+  left: 1rem;
+  background-color: #000;
+  overflow:hidden;
+  border-radius: 2rem;
+}
+.box02 img{
+  position: absolute;
+  width:100%;
+}
+
+.pc_wrap02 .box02:hover img{
+  animation: ani02 40s infinite;
+}
+
+
+
+@keyframes ani02 {
+  0%{top:0}
+  50%{top:-323rem}
+  100%{top:0}
+}
+
+@keyframes ani01 {
+  0%{top:0}
+  50%{top:-170rem}
+  100%{top:0}
+}
