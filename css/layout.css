@@ -888,6 +888,14 @@ section:nth-child(even) {
     position: absolute;
     transform: translate(10rem, -59rem) scaleX(-1);
 }
-#s6 .txt {
-    color: #aaa;
+#s6 .add a{
+    
+    background: #ddd;
+    color: #FFF;
+    padding: 10px;
+    transition: all 0.5s;
+    width: 140px;
+}
+#s6 .add a:hover {
+    background: #222;
 }
