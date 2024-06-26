@@ -122,20 +122,52 @@ section:nth-child(even) {
     position: absolute;
     display: flex;
     top: 30rem;
-    left: calc(50% - 10rem);
+    left: 55%;
 }
 
-#s0 .title_2 {
+#s0 .tit_wrap {
+
+} #s0 .title_1{
+    color: #fff;
+    
+}
+#s0 .title_2{
     position: absolute;
     display: flex;
-    top: 42rem;
-    left: calc(50% + 5rem);
+    top: 52rem;
+    left: 55%;
+    color: #222;
+    letter-spacing: -0.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #082032;
+    animation: typing2 2s steps(22), blink2 .5s step-end infinite alternate;
+    animation-delay : 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    
+}
+
+@keyframes typing2 {
+  from {
+    opacity: 1;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+    width: 52rem;
+  }
+}
+@keyframes blink2 {
+  50% {
+    border-color: transparent
+  }
 }
 
 #s0 .rel h1 span {
     display: contents;
     opacity: 0;
-    color:#fff
+    /* color:#fff */
 }
 
 .s0icon {
