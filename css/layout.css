@@ -263,6 +263,14 @@ section:nth-child(even) {
     left: 6rem;
 }
 
+#s1 .skill {
+    top: 1rem;
+    display: inline;
+    margin: 1rem 1rem;
+    color: #575757;
+    position: relative;
+}
+
 /* 스킬아이콘.이미지대신 */
 #s1 .skillicon {
     height: 5rem;
