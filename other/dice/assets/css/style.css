@@ -1432,8 +1432,8 @@ footer .footer_cont .footer_right .famliy_site.on button::after {
 }
 
 .ad_link:hover a {
-  color: #222;
-  border: 2px solid#222;
+  /* color: #222; */
+  background: #222;
 }
 
 .ad_link:hover {

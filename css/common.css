@@ -29,34 +29,14 @@
     font-family: 'NPSfontBold';
     font-size: 8rem;
 }
-#s2 .title{
+#s5 .title{
     font-family: 'NPSfontBold';
     font-size: 9rem;
 
 }
-#s2 .txt{
+#s5 .txt{
     line-height: 2.4rem;
     font-size: 1.8rem;
-}
-
-#s3 .title{
-    font-family: 'NPSfontBold';
-    font-size: 9rem;
-}
-#s3 .txt{
-    line-height: 2.4rem;
-    font-size: 1.8rem;
-}
-#s3 .dep1_list{
-    font-size: 1.4rem;
-
-}
-#s3 .lst_tit_1{
-    font-size: 4rem;
-}
-#s3 .btn{
-    font-size: 2rem;
-    font-family: 'NPSfontBold';
 }
 
 #s4 .title{
@@ -68,7 +48,6 @@
     font-size: 1.8rem;
 }
 #s4 .dep1_list{
-    line-height: 2rem;
     font-size: 1.4rem;
 
 }
@@ -79,23 +58,44 @@
     font-size: 2rem;
     font-family: 'NPSfontBold';
 }
-#s5 .title{
+
+#s3 .title{
     font-family: 'NPSfontBold';
     font-size: 9rem;
 }
-#s5 .txt{
+#s3 .txt{
     line-height: 2.4rem;
     font-size: 1.8rem;
 }
-#s5 .dep1_list{
+#s3 .dep1_list{
     line-height: 2rem;
     font-size: 1.4rem;
 
 }
-#s5 .lst_tit_1{
+#s3 .lst_tit_1{
     font-size: 4rem;
 }
-#s5 .btn{
+#s3 .btn{
+    font-size: 2rem;
+    font-family: 'NPSfontBold';
+}
+#s2 .title{
+    font-family: 'NPSfontBold';
+    font-size: 9rem;
+}
+#s2 .txt{
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+}
+#s2 .dep1_list{
+    line-height: 2rem;
+    font-size: 1.4rem;
+
+}
+#s2 .lst_tit_1{
+    font-size: 4rem;
+}
+#s2 .btn{
     font-size: 2rem;
     font-family: 'NPSfontBold';
 }

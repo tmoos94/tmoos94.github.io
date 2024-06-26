@@ -152,10 +152,10 @@
 
       console.log('6');
     },
-    f_7: function () {
+    // f_7: function () {
 
-      console.log('7');
-    },
+    //   console.log('7');
+    // },
 
 
   }
