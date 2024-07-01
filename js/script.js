@@ -10,7 +10,7 @@ function bubble() {
   
     ReactDOM.render(
     element,
-    document.getElementById('anim'));
+    document.getElementById('bubble'));
   
   }
   

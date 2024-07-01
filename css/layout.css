@@ -868,10 +868,10 @@ section:nth-child(even) {
     display: block;
     width: calc(100% + 30rem);
     background-color: #FFB800;
-    height: 22rem;
+    height: 20rem;
     border-radius: 12rem;
     position: absolute;
-    top: 40rem;
+    top: 18rem;
     
 }
 
@@ -882,13 +882,14 @@ section:nth-child(even) {
 #s6 .rab_bg2 {
     background: url(../img/1.svg) no-repeat 100%;
     background-size: cover;
-    height: 48rem;
-    width: 60rem;
+    height: 32rem;
+    width: 40rem;
 
     position: absolute;
-    transform: translate(10rem, -59rem) scaleX(-1);
+    top: 5%;
+    transform: translate(10rem, 0rem) scaleX(-1);
 }
-#s6 .add a{
+/* #s6 .add a{
     
     background: #ddd;
     color: #FFF;
@@ -898,4 +899,127 @@ section:nth-child(even) {
 }
 #s6 .add a:hover {
     background: #222;
-}
+} */
+
+  
+  .contact-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    height: 85%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .contact-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact-title p {
+    font-family: "nunito";
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  .contact-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+.card {
+    background: #2f3542;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+.card-icon {
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  
+  .card:hover .card-icon {
+    background: none;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  
+  .card-tit {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  
+  .card:hover .card-tit {
+    font-family: "nunito";
+    font-size: 16px;
+    color: #ffffff;
+    max-height: 40px;
+    opacity: 1;
+  }
+
+  .last-comment {
+    color: #bbb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    font-size: 14px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+    
