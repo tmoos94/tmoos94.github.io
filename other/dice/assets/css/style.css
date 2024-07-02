@@ -1125,7 +1125,7 @@ footer .footer_cont .footer_right .famliy_site.on button::after {
   display: none;
   position: absolute;
   top: 86.5%;
-  right: 5%;
+  left: 26%;
   z-index: 10;
   border-radius: 20px;
   background: #000;
@@ -1147,7 +1147,7 @@ footer .footer_cont .footer_right .famliy_site.on button::after {
   position: absolute;
   top: 0;
   left: -100%;
-  width: 120%;
+  width: 100vw;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }

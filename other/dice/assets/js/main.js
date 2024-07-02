@@ -22,16 +22,16 @@ document.addEventListener('DOMContentLoaded', function () {
     var isPaused = false;
     var pauseButton = document.createElement('button');
     pauseButton.className ='swiper-button-pause';
-    pauseButton.textContent = 'Pause';
+    pauseButton.textContent = '정지';
     document.querySelector('.slide-intro').appendChild(pauseButton);
 
     pauseButton.addEventListener('click', function () {
         if (isPaused) {
             swiper1.autoplay.start();
-            pauseButton.textContent = 'Pause';
+            pauseButton.textContent = '정지';
         } else {
             swiper1.autoplay.stop();
-            pauseButton.textContent = 'Play';
+            pauseButton.textContent = '시작';
         }
         isPaused = !isPaused;
     });
