@@ -437,42 +437,42 @@ section:nth-child(even) {
 }
 
 #s5 .s201 {
-    background: url(../img/도장.png) no-repeat;
+    background: url(../img/main_5/도장.png) no-repeat;
     background-size: cover;
 }
 
 #s5 .s202 {
-    background: url(../img/머그01.png) no-repeat;
+    background: url(../img/main_5/머그01.png) no-repeat;
     background-size: cover;
 }
 
 #s5 .s203 {
-    background: url(../img/명함01.png) no-repeat;
+    background: url(../img/main_5/명함01.png) no-repeat;
     background-size: cover;
 }
 
 #s5 .s204 {
-    background: url(../img/머그02.png) no-repeat;
+    background: url(../img/main_5/머그02.png) no-repeat;
     background-size: cover;
 }
 
 #s5 .s205 {
-    background: url(../img/나무도장_RDice.jpg) no-repeat;
+    background: url(../img/main_5/나무도장_RDice.jpg) no-repeat;
     background-size: cover;
 }
 
 #s5 .s206 {
-    background: url(../img/머그01.png) no-repeat;
+    background: url(../img/main_5/머그01.png) no-repeat;
     background-size: cover;
 }
 
 #s5 .s207 {
-    background: url(../img/명함01.png) no-repeat;
+    background: url(../img/main_5/명함01.png) no-repeat;
     background-size: cover;
 }
 
 #s5 .s208 {
-    background: url(../img/머그02.png) no-repeat;
+    background: url(../img/main_5/머그02.png) no-repeat;
     background-size: cover;
 }
 
@@ -611,9 +611,10 @@ section:nth-child(even) {
     background-size: cover;
     height: 25rem;
     width: 25rem;
-
+    top: -10rem;
+    left: 75rem;
     position: absolute;
-    transform: translate(-1rem, -85rem) scaleX(-1);
+    /* transform: translate(51rem, 0rem) scaleX(-1); */
 }
 
 #s3 .rel {
