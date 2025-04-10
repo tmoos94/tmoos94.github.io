@@ -803,6 +803,7 @@ legend {
     padding: 20px 0;
     border: none;
     background-color: transparent;
+    color: #222;
   }
 
   #header .search-area .search-box .inp-search:focus {
