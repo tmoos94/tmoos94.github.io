@@ -53,8 +53,8 @@ height: 90%;
     background-color: #333;
     border: 4pt solid #fff;
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    height: 10rem;
+    width: 10rem;
     transition: 0.8s;
     justify-items: center;
 }
@@ -68,8 +68,8 @@ height: 90%;
 .section1 .app .pf:hover{
     border: none;
     margin: 0 0 0.8rem 0;
-    height: 16rem;
-    width: 20rem;
+    height: 20rem;
+    width: 26rem;
     background-color: #fff;
     color: #222;
     border-radius: 3%;
@@ -77,8 +77,8 @@ height: 90%;
     .con_img{
         transition: 2s;
         opacity: 1;
-        height: 12rem;
-        width: 18rem;
+        height: 16rem;
+        width: 24rem;
         background-image: url(../other/2024pf/img/2024_po.jpg);
         background-size: cover;
     }
@@ -87,8 +87,8 @@ height: 90%;
 .section1 .app .vel:hover{
     border: none;
     margin: 0 0 0.8rem 0;
-    height: 16rem;
-    width: 20rem;
+    height: 20rem;
+    width: 26rem;
     background: #ffcb00;
     color: #222;
     border-radius: 3%;
@@ -99,8 +99,8 @@ height: 90%;
         background-image: url(../img/tstory.png);
         background-size: cover;
         background-position-y: center;
-        height: 12rem;
-        width: 18rem;
+        height: 16rem;
+        width: 24rem;
 
         background-color: #ffcb00;
     }
@@ -109,8 +109,8 @@ height: 90%;
 .section1 .app .gh:hover{
     border: none;
     margin: 0 0 0.8rem 0;
-    height: 16rem;
-    width: 20rem;
+    height: 20rem;
+    width: 26rem;
     background-color: #ffcb00;
     color: #222;
     border-radius: 3%;
@@ -124,8 +124,8 @@ height: 90%;
         background-position: center;
         
         background-color: #fff;
-        height: 12rem;
-        width: 18rem;
+        height: 16rem;
+        width: 24rem;
     }
 
 }
@@ -142,6 +142,28 @@ height: 90%;
     position: absolute;
     top: 0;
     left: 0;
+}   
+.section2 .rel{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2 .box{
+    /* margin: 4rem; */
+    padding: 1rem;
+    border: solid 4px #000;
+    height: 24rem;
+    width: 20rem;
+}
+.section2 .box .txt{
+    /* margin: 1rem; */
+
+}
+.section2 .box .txt h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+.section2 .box .txt p{
+    font-size: 1rem;
 }
 
 /* 컨텍 */
