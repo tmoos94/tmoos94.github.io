@@ -9,6 +9,34 @@
     background-color: #222;
 }
 
+.section1 {
+    background: linear-gradient(#000000, #1f1c2c);
+}
+
+.section2 {
+    background: linear-gradient(#1f1c2c, #3c1053);
+}
+
+.section3 {
+    background: linear-gradient(#3c1053, #6c0e6c);
+}
+
+.section4 {
+    background: linear-gradient(#6c0e6c, #b9314f);
+}
+
+.section5 {
+    background: linear-gradient(#b9314f, #f46036);
+}
+
+.section6 {
+    background: linear-gradient(#f46036, #ffcb00);
+}
+
+.section7 {
+    background: linear-gradient(#ffcb00, #fffbfb);
+}
+
 /* #fp-nav ul li a span, .fp-slidesNav ul li a span{
     background-color: #ffcb00;
 } */
@@ -150,20 +178,21 @@ height: 90%;
 .section2 .box{
     /* margin: 4rem; */
     padding: 1rem;
-    border: solid 4px #000;
-    height: 24rem;
-    width: 20rem;
+    border: solid 4px #fff;
+    height: 32rem;
+    width: 22rem;
+    border-radius: 20% 5% 5% 20%;
+    align-content: center;
 }
 .section2 .box .txt{
-    /* margin: 1rem; */
-
+    margin: 1rem;
 }
 .section2 .box .txt h1{
-    margin: 0.5rem;
-    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
 }
 .section2 .box .txt p{
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 /* 컨텍 */
@@ -209,3 +238,4 @@ height: 90%;
 .last-comment{
     opacity: 0.8;
 }
+
