@@ -178,10 +178,10 @@ height: 90%;
 .section2 .box{
     /* margin: 4rem; */
     padding: 1rem;
-    border: solid 4px #fff;
+    border: double 0.4rem #ffcb00;
     height: 32rem;
     width: 22rem;
-    border-radius: 20% 5% 5% 20%;
+    border-radius: 5%;
     align-content: center;
 }
 .section2 .box .txt{
@@ -192,7 +192,14 @@ height: 90%;
     font-size: 2.4rem;
 }
 .section2 .box .txt p{
+    padding-bottom: 0.5rem;
     font-size: 1.4rem;
+}
+.section2 .line{
+    height: 20rem;
+    width: 0.2rem;
+    align-self: center;
+    background-color: #ffcb00;
 }
 
 /* 컨텍 */
@@ -220,8 +227,6 @@ height: 90%;
 .card img{
     width: 3rem;
     height: 3rem;
-}
-.card-tit {
 }
 .card-txt{
     margin: 1rem;
