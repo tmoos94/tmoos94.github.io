@@ -6,7 +6,20 @@
     align-items: flex-start;
     position: relative;
     color: #ffcb00;
-    background-color: #222;
+}
+.section .dep_tit{
+    position: absolute;
+    /*
+  left: -18rem;
+  transform: rotate(90deg);
+  top: 20rem;
+  */
+    font-size: 10rem;
+    color: #fff;
+    top: 0;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background-color: #fff;
 }
 
 .section1 {
@@ -40,8 +53,6 @@
 /* #fp-nav ul li a span, .fp-slidesNav ul li a span{
     background-color: #ffcb00;
 } */
-.dep_tit {
-}
   
 
 /* section1*/
@@ -161,16 +172,8 @@ height: 90%;
 /* section2*/
 .section2 {
     /* background-color: #ff6347; */
-
-    background-color: #ffcb00;
     color: #fff;
 }
-.section2 .tit{
-    font-size: 10rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-}   
 .section2 .rel{
     display: flex;
     justify-content: space-evenly;
@@ -179,16 +182,22 @@ height: 90%;
     /* margin: 4rem; */
     padding: 1rem;
     border: double 0.4rem #ffcb00;
-    height: 32rem;
+    height: 34rem;
     width: 22rem;
-    border-radius: 5%;
+    border-radius: 2% 2% 20% 2%;
     align-content: center;
+    .line{
+        height: 0.1rem;
+        width: 18rem;
+        margin: 1rem;
+        justify-self: center;
+    }
 }
 .section2 .box .txt{
     margin: 1rem;
 }
 .section2 .box .txt h1{
-    margin-bottom: 1rem;
+    margin: 0.5rem;
     font-size: 2.4rem;
 }
 .section2 .box .txt p{
@@ -200,6 +209,54 @@ height: 90%;
     width: 0.2rem;
     align-self: center;
     background-color: #ffcb00;
+}
+/*section3*/
+.section3 .rel{
+    width: 92%;
+    display: flex;
+    justify-content: right;
+}
+.section3 .list{
+    /* margin: 5rem; */
+    border: solid 0.4rem #0A3792;
+    color: #0A3792;
+    background: #fff;
+    justify-items: center;
+    align-content: center;
+    width: 30rem;
+    height: 36rem;
+    div{
+        margin: 1rem 0;
+    }
+}
+.section3 .tit{
+    font-size: 5rem;
+}
+.section3 .list .btn{
+    border: solid 0.2rem #fff;
+    width: 20rem;
+    height: 4rem;
+    align-content: center;
+    color: #fff;
+    background-color: #0A3792;
+}
+.section3 .icon{
+    display: flex;
+    .cl{
+        margin: 1rem;
+        background-color: #fff;
+        border: solid 0.5rem;
+        padding: 0.5rem;
+    }
+    .cl1{
+        color: #0A3792;
+    }
+    .cl2{
+        color: #365AB1;
+    }
+    .cl3{
+        color: #02A4DB;
+    }
 }
 
 /* 컨텍 */
@@ -236,11 +293,12 @@ height: 90%;
 
 .card:hover{
     font-size: 1rem;
-    background-color: #ffcb00;
+    border: solid 0.2rem #f46036;
     opacity: 1;
     transition: 0.5s ;
 }
 .last-comment{
-    opacity: 0.8;
+    opacity: 0.5;
+    color: #000000;
 }
 
