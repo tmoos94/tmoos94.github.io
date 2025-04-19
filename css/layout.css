@@ -218,13 +218,13 @@ height: 90%;
 }
 .section3 .list{
     /* margin: 5rem; */
-    border: solid 0.4rem #0A3792;
-    color: #0A3792;
-    background: #fff;
+    border: solid 0.4rem #fff;
+    color: #fff;
+    background: #0A3792;
     justify-items: center;
     align-content: center;
     width: 30rem;
-    height: 36rem;
+    height: 34rem;
     div{
         margin: 1rem 0;
     }
@@ -240,22 +240,26 @@ height: 90%;
     color: #fff;
     background-color: #0A3792;
 }
+.section3 .list .btn:hover{
+    background-color: #fff;
+    color: #0A3792;
+}
 .section3 .icon{
     display: flex;
     .cl{
         margin: 1rem;
-        background-color: #fff;
-        border: solid 0.5rem;
+        color: #fff;
+        border: solid 0.2rem;
         padding: 0.5rem;
     }
     .cl1{
-        color: #0A3792;
+        background-color: #0A3792;
     }
     .cl2{
-        color: #365AB1;
+        background-color: #365AB1;
     }
     .cl3{
-        color: #02A4DB;
+        background-color: #02A4DB;
     }
 }
 
