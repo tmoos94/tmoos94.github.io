@@ -1538,13 +1538,16 @@ body.scrolling nav ul a {
 }
 /* 비디오 */
 .video-group {
-    background-color: #f8f8f8;
-    .container {
-        text-align: center;
-        .sec-title {
-            font-size: 2rem;
-        }
-    }
+    background-color: #222;
+    color: #fff;
+    height: 100vh;
+}
+.video-group .container {
+    text-align: center;
+}
+
+.video-group .sec-title {
+    font-size: 2rem;
 }
 .video-list {
     display: flex;
