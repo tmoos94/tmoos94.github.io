@@ -1538,9 +1538,10 @@ body.scrolling nav ul a {
 }
 /* 비디오 */
 .video-group {
-    background-color: #222;
-    color: #fff;
-    height: 100vh;
+    background-color: #f8f8f8;
+    color: #000;
+    height: 80vh;
+    align-content: center;
 }
 .video-group .container {
     text-align: center;
