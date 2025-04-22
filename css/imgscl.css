@@ -7,7 +7,7 @@
   width:100%;
   left: 0;
 }
-.pc{
+.section3 .pc{
     position: absolute;
     height: 22.5rem;
     width: 44rem;
@@ -18,12 +18,34 @@
     left: 3rem;
     border: double 0.4rem #fff;
 }
-.mob{
+.section3 .mob{
     position: absolute;
     height: 20rem;
     width: 10rem;
     top: 26rem;
     left: 34rem;
+    background-color: #000;
+    overflow:hidden;
+    border-radius: 1rem;
+    border: solid 0.2rem #fff;
+}
+.section4 .pc{
+    position: absolute;
+    height: 22.5rem;
+    width: 44rem;
+    background-color: #000;
+    overflow:hidden;
+    /* border-radius: 1rem; */
+    top: 16rem;
+    right: 3rem;
+    border: double 0.4rem #fff;
+}
+.section4 .mob{
+    position: absolute;
+    height: 20rem;
+    width: 10rem;
+    top: 26rem;
+    right: 10rem;
     background-color: #000;
     overflow:hidden;
     border-radius: 1rem;
