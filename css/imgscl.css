@@ -1,77 +1,92 @@
-
 /*프로젝트용*/
 
-.img .cont{
-    
+.img .cont {
+
   position: absolute;
-  width:100%;
+  width: 100%;
   left: 0;
 }
-.section3 .pc{
-    position: absolute;
-    height: 22.5rem;
-    width: 44rem;
-    background-color: #000;
-    overflow:hidden;
-    /* border-radius: 1rem; */
-    top: 16rem;
-    left: 3rem;
-    border: double 0.4rem #fff;
+
+.section3 .pc {
+  position: absolute;
+  height: 22.5rem;
+  width: 44rem;
+  background-color: #000;
+  overflow: hidden;
+  /* border-radius: 1rem; */
+  top: 16rem;
+  left: 3rem;
+  border: double 0.4rem #fff;
 }
-.section3 .mob{
-    position: absolute;
-    height: 20rem;
-    width: 10rem;
-    top: 26rem;
-    left: 34rem;
-    background-color: #000;
-    overflow:hidden;
-    border-radius: 1rem;
-    border: solid 0.2rem #fff;
+
+.section3 .mob {
+  position: absolute;
+  height: 20rem;
+  width: 10rem;
+  top: 26rem;
+  left: 34rem;
+  background-color: #000;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: solid 0.2rem #fff;
 }
-.section4 .pc{
-    position: absolute;
-    height: 22.5rem;
-    width: 44rem;
-    background-color: #000;
-    overflow:hidden;
-    /* border-radius: 1rem; */
-    top: 16rem;
-    right: 3rem;
-    border: double 0.4rem #fff;
+
+.section4 .pc {
+  position: absolute;
+  height: 22.5rem;
+  width: 44rem;
+  background-color: #000;
+  overflow: hidden;
+  /* border-radius: 1rem; */
+  top: 16rem;
+  right: 3rem;
+  border: double 0.4rem #fff;
 }
-.section4 .mob{
-    position: absolute;
-    height: 20rem;
-    width: 10rem;
-    top: 26rem;
-    right: 10rem;
-    background-color: #000;
-    overflow:hidden;
-    border-radius: 1rem;
-    border: solid 0.2rem #fff;
+
+.section4 .mob {
+  position: absolute;
+  height: 20rem;
+  width: 10rem;
+  top: 26rem;
+  right: 10rem;
+  background-color: #000;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: solid 0.2rem #fff;
 }
-.pc .cont{
-    width: 100%;
+
+.section3 .pc .cont {
+  width: 100%;
 }
+
 /* .pc:hover .cont{
     animation: ani01 30s infinite;
 } */
-.mob .cont{
-    width: 100%;
-    
+.section3 .mob .cont {
+  width: 100%;
+
 }
-.mob:hover .cont{
-    animation: ani02 40s infinite;
+
+.section3 .mob:hover .cont {
+  animation: ani02 40s infinite;
 
 }
 
 
 @keyframes ani02 {
-    0%{top:0}
-    50%{top:-154rem}
-    100%{top:0}
+  0% {
+    top: 0
   }
+
+  50% {
+    top: -154rem
+  }
+
+  100% {
+    top: 0
+  }
+}
+
 /*   
   @keyframes ani01 {
     0%{top:0}
@@ -79,21 +94,31 @@
     100%{top:0}
   } */
 
-  
-  .hover-in .cont{
-    animation: ani01 20s forwards;
+
+.section3 .hover-in .cont {
+  animation: ani01 20s forwards;
+}
+
+.section3 .hover-out .cont {
+  animation: ani03 20s forwards;
+}
+
+@keyframes ani01 {
+  0% {
+    top: 0;
   }
 
-  .hover-out .cont {
-    animation: ani03 20s forwards;
+  100% {
+    top: -90rem;
+  }
+}
+
+@keyframes ani03 {
+  0% {
+    top: -90rem;
   }
 
-  @keyframes ani01 {
-    0% { top: 0; }
-    100% { top: -90rem; }
+  100% {
+    top: 0;
   }
-
-  @keyframes ani03 {
-    0% { top: -90rem; }
-    100% { top: 0; }
-  }
+}

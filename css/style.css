@@ -4,7 +4,6 @@
 @import url(reset.css);
 @import url(font.css);
 @import url(layout.css);
-@import url(common.css);
-@import url(media_new.css);
+@import url(size.css);
 
 @import url(imgscl.css);

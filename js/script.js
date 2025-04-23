@@ -1,15 +1,15 @@
-
+//오른쪽 키 표기
 new fullpage('#fullpage', {
 
   //    sectionsColor: ['#ff6347', '#4682b4'],
   navigation: true,
-  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixthSection', 'seventhSection'],
+  anchors: ['Main', 'Profile', 'TeamProject', 'Projects', 'Design', 'Oters', 'Contact'],
   navigationTooltips: ['Main', 'Profile', 'Team Project', 'Project', 'Design', 'Other', 'Contact'],
 });
 /*
 
 */
-//팀프로젝트
+//팀프로젝트 그릴 스크롤
 const box = document.getElementById("imageBox");
 
 box.addEventListener("mouseenter", () => {

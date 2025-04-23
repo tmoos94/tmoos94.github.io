@@ -307,12 +307,13 @@ legend {
     transition: all 0.3s;
 }
 
+/*
 @media screen and (min-width: 768px) {
     .container {
         padding: 0 30px;
     }
 
-    /* scrolling */
+    scrolling
     body.scrolling .tit_mob img.mob_logo_bl {
         opacity: 1;
     }
@@ -333,7 +334,7 @@ legend {
         color: #007aff;
     }
 }
-
+*/
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1340px;
@@ -395,6 +396,7 @@ legend {
 }
 
 @media screen and (min-width: 1280px) {
+
     .swiper-button-next,
     .swiper-button-prev {
         display: block;
@@ -449,21 +451,21 @@ legend {
     transition: all 0.3s;
 }
 
-#header #gnb #btnMenu:checked + .label-menu .bar:nth-child(1) {
+#header #gnb #btnMenu:checked+.label-menu .bar:nth-child(1) {
     transform: translateY(7px) rotate(45deg);
     background: #000;
 }
 
-#header #gnb #btnMenu:checked + .label-menu .bar:nth-child(2) {
+#header #gnb #btnMenu:checked+.label-menu .bar:nth-child(2) {
     opacity: 0;
 }
 
-#header #gnb #btnMenu:checked + .label-menu .bar:nth-child(3) {
+#header #gnb #btnMenu:checked+.label-menu .bar:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
     background: #000;
 }
 
-#header #gnb #btnMenu:checked ~ .menu-wrap {
+#header #gnb #btnMenu:checked~.menu-wrap {
     left: 0;
 }
 
@@ -861,6 +863,7 @@ legend {
 }
 
 @media screen and (min-width: 1280px) {
+
     .sec-type1,
     .sec-type2 {
         padding: 150px 0;
@@ -1303,12 +1306,13 @@ footer .footer_cont .footer_right .famliy_site.on button::after {
     right: -100px;
 }
 
+/*
 @media screen and (min-width: 768px) {
     .slide-eft .swiper {
         width: 95%;
     }
 }
-
+*/
 @media screen and (min-width: 1280px) {
     .slide-eft .swiper {
         width: 100%;
@@ -1536,6 +1540,7 @@ body.scrolling header::before {
 body.scrolling nav ul a {
     color: #000;
 }
+
 /* 비디오 */
 .video-group {
     background-color: #f8f8f8;
@@ -1543,6 +1548,7 @@ body.scrolling nav ul a {
     height: 80vh;
     align-content: center;
 }
+
 .video-group .container {
     text-align: center;
 }
@@ -1550,10 +1556,12 @@ body.scrolling nav ul a {
 .video-group .sec-title {
     font-size: 2rem;
 }
+
 .video-list {
     display: flex;
     justify-content: center;
 }
+
 .youtube {
     margin: 1rem;
     align-content: center;
